@@ -6,3 +6,134 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+/* ...........RULES........... */
+a {
+  color: blue;
+}
+
+a:link a:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a img {
+  border: 10px solid white;
+}
+
+/* Rules for Header Bar */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ...........TOP........... */
+
+section.header {
+  display: block;
+  padding: 15px 20px;
+  background: #f3f3f3;
+}
+
+section.header ul.nav {
+  position: relative;
+  float: right;
+  margin-right: 9px;
+}
+
+section.header ul.nav li {
+  position: relative;
+  float: left;
+}
+
+section.header ul.nav li a {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin-left: 15px;
+}
+
+/* ...........MIDDLE........... */
+
+section.pictures {
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+section.pictures div.territory {
+  border: 10px solid white;
+  border-spacing: 20px;
+  padding: 10px;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: #f0f3f9;
+  width: 470px;
+  height: 527px;
+  margin-left: 50px;
+}
+
+section.pictures img {
+  height: 424px;
+  width: 424px;
+}
+
+section.pictures div.footer {
+  display: block;
+  width: 424px;
+  height: auto;
+  background-color: lightgrey;
+}
+
+section.pictures div.footer p {
+  word-spacing: 330px;
+  position: relative;
+  font-size: 18px;
+}
+
+/* ...........BOTTOM........... */
+
+section.bottom {
+  border-top: 3px solid #f3f3f3;
+  display: table;
+  width: 100%;
+  padding: 15px 0 20px;
+}
+
+section.bottom ul.info {
+  display: table-cell;
+  text-align: center;
+  width: 50%;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+section.bottom ul.info li {
+  position: relative;
+  float: left;
+}
+
+section.bottom img {
+  vertical-align: middle;
+  margin-right: 100px;
+}
+
+section.bottom ul.info li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(20, 41, 187);
+  margin-left: 15px;
+}
